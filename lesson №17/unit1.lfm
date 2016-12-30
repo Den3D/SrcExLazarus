@@ -1,0 +1,109 @@
+object Form1: TForm1
+  Left = 443
+  Height = 336
+  Top = 235
+  Width = 783
+  Caption = 'Form1'
+  ClientHeight = 336
+  ClientWidth = 783
+  LCLVersion = '1.6.0.4'
+  object PairSplitter1: TPairSplitter
+    Left = 0
+    Height = 336
+    Top = 0
+    Width = 783
+    Align = alClient
+    Color = 8421631
+    Position = 352
+    object PairSplitterSide1: TPairSplitterSide
+      Cursor = crArrow
+      Left = 0
+      Height = 336
+      Top = 0
+      Width = 352
+      ClientWidth = 352
+      ClientHeight = 336
+      object Button1: TButton
+        Left = 240
+        Height = 25
+        Top = 64
+        Width = 75
+        Caption = 'Button1'
+        TabOrder = 0
+      end
+      object Button2: TButton
+        Left = 240
+        Height = 25
+        Top = 120
+        Width = 75
+        Caption = 'Button2'
+        TabOrder = 1
+      end
+      object Button3: TButton
+        Left = 132
+        Height = 25
+        Top = 64
+        Width = 75
+        Caption = 'Button3'
+        TabOrder = 2
+      end
+      object Button4: TButton
+        Left = 136
+        Height = 25
+        Top = 120
+        Width = 75
+        Caption = 'Button4'
+        TabOrder = 3
+      end
+      object Button5: TButton
+        Left = 40
+        Height = 25
+        Top = 64
+        Width = 75
+        Caption = 'Button5'
+        TabOrder = 4
+      end
+      object Button6: TButton
+        Left = 40
+        Height = 25
+        Top = 120
+        Width = 75
+        Caption = 'Button6'
+        TabOrder = 5
+      end
+    end
+    object PairSplitterSide2: TPairSplitterSide
+      Cursor = crArrow
+      Left = 357
+      Height = 336
+      Top = 0
+      Width = 426
+      ClientWidth = 426
+      ClientHeight = 336
+      object Button7: TButton
+        Left = 24
+        Height = 25
+        Top = 56
+        Width = 75
+        Caption = 'Button7'
+        TabOrder = 0
+      end
+      object Button8: TButton
+        Left = 128
+        Height = 25
+        Top = 56
+        Width = 75
+        Caption = 'Button8'
+        TabOrder = 1
+      end
+      object Button9: TButton
+        Left = 216
+        Height = 25
+        Top = 56
+        Width = 75
+        Caption = 'Button9'
+        TabOrder = 2
+      end
+    end
+  end
+end

@@ -1,0 +1,21 @@
+object Form3: TForm3
+  Left = 368
+  Height = 240
+  Top = 284
+  Width = 320
+  Caption = 'MDI'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '1.4.0.4'
+  object Button1: TButton
+    Left = 0
+    Height = 49
+    Top = 0
+    Width = 320
+    Align = alTop
+    Caption = 'Exit'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+end

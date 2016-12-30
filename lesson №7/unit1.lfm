@@ -1,0 +1,162 @@
+object Form1: TForm1
+  Left = 459
+  Height = 362
+  Top = 374
+  Width = 907
+  Caption = 'Form1'
+  ClientHeight = 362
+  ClientWidth = 907
+  LCLVersion = '1.4.0.4'
+  object ListBox1: TListBox
+    Left = 8
+    Height = 184
+    Top = 8
+    Width = 144
+    Items.Strings = (
+      'Москва'
+      'Санкт-Петербург'
+      'Киев'
+      'Вильнюс'
+      'Будапешт'
+      'Вена'
+      'Париж'
+      'Берлин'
+      'Лондон'
+      'Мехико'
+      'Оттава'
+      'Лос-Анжелес'
+      'Сан-Франциско'
+      'Нью-Йорк'
+    )
+    ItemHeight = 15
+    ItemIndex = 0
+    MultiSelect = True
+    OnClick = ListBox1Click
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 232
+    Height = 184
+    Top = 8
+    Width = 128
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 8
+    Height = 23
+    Top = 208
+    Width = 144
+    TabOrder = 2
+    Text = 'Edit1'
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 240
+    Width = 75
+    Caption = 'add'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 88
+    Height = 25
+    Top = 241
+    Width = 75
+    Caption = 'del'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 160
+    Height = 33
+    Top = 72
+    Width = 64
+    Caption = '>>'
+    OnClick = Button3Click
+    TabOrder = 5
+  end
+  object ComboBox1: TComboBox
+    Left = 384
+    Height = 23
+    Top = 8
+    Width = 176
+    ItemHeight = 15
+    ItemIndex = 0
+    Items.Strings = (
+      'Москва'
+      'Санкт-Петербург'
+      'Киев'
+      'Вильнюс'
+      'Будапешт'
+      'Вена'
+      'Париж'
+      'Берлин'
+      'Лондон'
+      'Мехико'
+      'Оттава'
+      'Лос-Анжелес'
+      'Сан-Франциско'
+      'Нью-Йорк'
+    )
+    OnChange = ComboBox1Change
+    TabOrder = 6
+    Text = 'Москва'
+  end
+  object Edit2: TEdit
+    Left = 384
+    Height = 23
+    Top = 48
+    Width = 176
+    TabOrder = 7
+    Text = 'Edit2'
+  end
+  object Button4: TButton
+    Left = 384
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'add'
+    OnClick = Button4Click
+    TabOrder = 8
+  end
+  object Button5: TButton
+    Left = 488
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'del'
+    OnClick = Button5Click
+    TabOrder = 9
+  end
+  object Button6: TButton
+    Left = 8
+    Height = 33
+    Top = 280
+    Width = 158
+    Caption = 'save'
+    OnClick = Button6Click
+    TabOrder = 10
+  end
+  object Button7: TButton
+    Left = 8
+    Height = 25
+    Top = 328
+    Width = 158
+    Caption = 'load'
+    OnClick = Button7Click
+    TabOrder = 11
+  end
+  object Button8: TButton
+    Left = 152
+    Height = 25
+    Top = 16
+    Width = 75
+    Caption = 'Button8'
+    OnClick = Button8Click
+    TabOrder = 12
+  end
+end
