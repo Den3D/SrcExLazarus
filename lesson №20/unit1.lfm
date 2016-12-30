@@ -1,0 +1,62 @@
+object Form1: TForm1
+  Left = 507
+  Height = 354
+  Top = 225
+  Width = 501
+  Caption = 'Form1'
+  ClientHeight = 354
+  ClientWidth = 501
+  OnCreate = FormCreate
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 232
+    Height = 119
+    Top = 24
+    Width = 138
+    Caption = 'Button1'
+    Color = clRed
+    TabOrder = 0
+  end
+  object ValueListEditor1: TValueListEditor
+    Left = 0
+    Height = 354
+    Top = 0
+    Width = 200
+    Align = alLeft
+    FixedCols = 0
+    ParentShowHint = False
+    RowCount = 10
+    TabOrder = 1
+    OnBeforeSelection = ValueListEditor1BeforeSelection
+    OnButtonClick = ValueListEditor1ButtonClick
+    OnClick = ValueListEditor1Click
+    Strings.Strings = (
+      'Заголовок=Заголовок'
+      'Высота=20'
+      'Ширина=30'
+      'Отображение='
+      'Цвет=clRed'
+      ''
+      ''
+      ''
+      ''
+    )
+    TitleCaptions.Strings = (
+      'Название'
+      'Значение'
+    )
+    ColWidths = (
+      64
+      132
+    )
+  end
+  object Button2: TButton
+    Left = 392
+    Height = 25
+    Top = 296
+    Width = 75
+    Caption = 'Button2'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+end
