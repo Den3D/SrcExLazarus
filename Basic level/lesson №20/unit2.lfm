@@ -1,0 +1,27 @@
+object Form2: TForm2
+  Left = 859
+  Height = 240
+  Top = 298
+  Width = 308
+  Caption = 'Form2'
+  ClientHeight = 240
+  ClientWidth = 308
+  LCLVersion = '1.8.4.0'
+  object ColorBox1: TColorBox
+    Left = 88
+    Height = 22
+    Top = 32
+    Width = 100
+    ItemHeight = 16
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 72
+    Height = 80
+    Top = 80
+    Width = 144
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+end

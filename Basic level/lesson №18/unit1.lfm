@@ -1,0 +1,37 @@
+object Form1: TForm1
+  Left = 432
+  Height = 321
+  Top = 252
+  Width = 373
+  Caption = 'Form1'
+  ClientHeight = 321
+  ClientWidth = 373
+  LCLVersion = '1.8.4.0'
+  object ColorBox1: TColorBox
+    Left = 40
+    Height = 22
+    Top = 24
+    Width = 100
+    Style = [cbStandardColors, cbExtendedColors, cbSystemColors, cbCustomColor, cbPrettyNames]
+    Color = 8421631
+    ItemHeight = 16
+    TabOrder = 0
+  end
+  object ColorListBox1: TColorListBox
+    Left = 176
+    Height = 104
+    Top = 24
+    Width = 120
+    ItemHeight = 0
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 48
+    Height = 30
+    Top = 64
+    Width = 75
+    Caption = 'BitBtn1'
+    OnClick = BitBtn1Click
+    TabOrder = 2
+  end
+end

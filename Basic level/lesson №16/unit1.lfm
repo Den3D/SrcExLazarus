@@ -1,0 +1,229 @@
+object Form1: TForm1
+  Left = 431
+  Height = 348
+  Top = 245
+  Width = 404
+  Caption = 'Form1'
+  ClientHeight = 348
+  ClientWidth = 404
+  LCLVersion = '1.8.4.0'
+  object ScrollBox1: TScrollBox
+    Left = 8
+    Height = 112
+    Top = 16
+    Width = 200
+    HorzScrollBar.Page = 179
+    VertScrollBar.Page = 91
+    ClientHeight = 91
+    ClientWidth = 179
+    TabOrder = 0
+    object Button1: TButton
+      Left = 8
+      Height = 25
+      Top = 16
+      Width = 75
+      Caption = 'Button1'
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 96
+      Height = 25
+      Top = 16
+      Width = 75
+      Caption = 'Button2'
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 184
+      Height = 25
+      Top = 16
+      Width = 75
+      Caption = 'Button3'
+      TabOrder = 2
+    end
+    object Button4: TButton
+      Left = 8
+      Height = 25
+      Top = 56
+      Width = 75
+      Caption = 'Button4'
+      TabOrder = 3
+    end
+    object Button5: TButton
+      Left = 96
+      Height = 25
+      Top = 56
+      Width = 75
+      Caption = 'Button5'
+      TabOrder = 4
+    end
+    object Button6: TButton
+      Left = 184
+      Height = 25
+      Top = 64
+      Width = 75
+      Caption = 'Button6'
+      TabOrder = 5
+    end
+    object Button7: TButton
+      Left = 8
+      Height = 25
+      Top = 96
+      Width = 75
+      Caption = 'Button7'
+      TabOrder = 6
+    end
+    object Button8: TButton
+      Left = 96
+      Height = 25
+      Top = 96
+      Width = 75
+      Caption = 'Button8'
+      TabOrder = 7
+    end
+    object Button9: TButton
+      Left = 184
+      Height = 25
+      Top = 100
+      Width = 75
+      Caption = 'Button9'
+      TabOrder = 8
+    end
+    object Button10: TButton
+      Left = 8
+      Height = 25
+      Top = 128
+      Width = 75
+      Caption = 'Button10'
+      TabOrder = 9
+    end
+    object Button11: TButton
+      Left = 96
+      Height = 25
+      Top = 136
+      Width = 75
+      Caption = 'Button11'
+      TabOrder = 10
+    end
+    object Button12: TButton
+      Left = 184
+      Height = 25
+      Top = 136
+      Width = 75
+      Caption = 'Button12'
+      TabOrder = 11
+    end
+    object RadioButton1: TRadioButton
+      Left = 8
+      Height = 19
+      Top = 176
+      Width = 92
+      Caption = 'RadioButton1'
+      TabOrder = 12
+    end
+    object CheckBox1: TCheckBox
+      Left = 8
+      Height = 19
+      Top = 200
+      Width = 78
+      Caption = 'CheckBox1'
+      TabOrder = 13
+    end
+    object CheckBox2: TCheckBox
+      Left = 8
+      Height = 19
+      Top = 230
+      Width = 78
+      Caption = 'CheckBox2'
+      TabOrder = 14
+    end
+    object CheckBox3: TCheckBox
+      Left = 112
+      Height = 19
+      Top = 176
+      Width = 78
+      Caption = 'CheckBox3'
+      TabOrder = 15
+    end
+    object CheckBox4: TCheckBox
+      Left = 112
+      Height = 19
+      Top = 208
+      Width = 78
+      Caption = 'CheckBox4'
+      TabOrder = 16
+    end
+    object CheckBox5: TCheckBox
+      Left = 112
+      Height = 19
+      Top = 235
+      Width = 78
+      Caption = 'CheckBox5'
+      TabOrder = 17
+    end
+  end
+  object Button13: TButton
+    Left = 8
+    Height = 25
+    Top = 144
+    Width = 75
+    Caption = 'Button13'
+    OnClick = Button13Click
+    TabOrder = 1
+  end
+  object CheckListBox1: TCheckListBox
+    Left = 224
+    Height = 112
+    Top = 16
+    Width = 168
+    Columns = 2
+    Items.Strings = (
+      '1'
+      '2'
+      '3'
+      '4'
+      '5'
+      '6'
+      '7'
+      '8'
+      '9'
+      '10'
+      '11'
+    )
+    ItemHeight = 17
+    ItemIndex = 0
+    MultiSelect = True
+    TabOrder = 2
+    Data = {
+      0B0000000000000000000000000000
+    }
+  end
+  object Button14: TButton
+    Left = 224
+    Height = 25
+    Top = 136
+    Width = 75
+    Caption = 'Button14'
+    OnClick = Button14Click
+    TabOrder = 3
+  end
+  object Button15: TButton
+    Left = 312
+    Height = 25
+    Top = 136
+    Width = 75
+    Caption = 'Button15'
+    OnClick = Button15Click
+    TabOrder = 4
+  end
+  object Memo1: TMemo
+    Left = 224
+    Height = 146
+    Top = 184
+    Width = 168
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 5
+  end
+end
