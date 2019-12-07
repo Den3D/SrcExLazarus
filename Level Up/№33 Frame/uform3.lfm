@@ -1,0 +1,29 @@
+object Form3: TForm3
+  Left = 993
+  Height = 192
+  Top = 200
+  Width = 297
+  Caption = 'Form3'
+  ClientHeight = 192
+  ClientWidth = 297
+  Position = poMainFormCenter
+  LCLVersion = '2.0.2.0'
+  inline Frame1_1: TFrame1
+    Height = 192
+    Width = 297
+    Align = alClient
+    ClientHeight = 192
+    ClientWidth = 297
+    inherited Memo1: TMemo
+      Lines.Strings = (
+        'Memo1'
+      )
+    end
+    inherited Button3: TButton
+      OnClick = Button3Click
+    end
+    inherited BitBtn1: TBitBtn
+      OnClick = BitBtn1Click
+    end
+  end
+end

@@ -1,12 +1,12 @@
 object Form1: TForm1
-  Left = 550
+  Left = 489
   Height = 370
   Top = 239
   Width = 418
   Caption = 'Form1'
   ClientHeight = 370
   ClientWidth = 418
-  LCLVersion = '1.8.4.0'
+  LCLVersion = '2.0.4.0'
   object PageControl1: TPageControl
     Left = 0
     Height = 370

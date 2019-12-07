@@ -6,7 +6,7 @@ object Form1: TForm1
   Caption = 'Form1'
   ClientHeight = 348
   ClientWidth = 404
-  LCLVersion = '1.8.4.0'
+  LCLVersion = '2.0.4.0'
   object ScrollBox1: TScrollBox
     Left = 8
     Height = 112
@@ -166,7 +166,7 @@ object Form1: TForm1
     Left = 8
     Height = 25
     Top = 144
-    Width = 75
+    Width = 80
     Caption = 'Button13'
     OnClick = Button13Click
     TabOrder = 1
